@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .title1
+        {
+            left: 40%;
+        }
+        .blog1
+        {
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 80%;
+        }
+        .box8
+        {
+            height: 200px;
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 152%;
+            border: 1px solid grey;
+        }
+        .detail h2
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        .detail h3
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .detail h4
+        {
+            color: yellow;
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .box9
+        {
+            height: 130px;
+            width: 520px;
+            background-color: rgb(250, 215, 215);
+            position: absolute;
+            top: 80%;
+            left: 60%;
+        }
+        .box10
+        {
+            height: 50px;
+            width: 420px;
+            background-color: white;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+        }
+        .box11
+        {
+            height: 50px;
+            width: 100px;
+            background-color: yellow;
+            position: absolute;
+            top: 0%;
+            left: 76.2%;
+        }
+        .s
+        {
+            color: grey;
+            position: absolute;
+            top: 25%;
+            left: 23%;
+            font-size: 20px;
+        }
+        .box12
+        {
+            width: 520px;
+            height: 440px;
+            background-color: white;
+            position: absolute;
+            top: 102%;
+            left: 60%;
+        }
+        .detail2
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+        }
+        .box13
+        {
+            width: 520px;
+            height: 500px;
+            background-color: white;
+            position: absolute;
+            top: 167%;
+            left: 60%;
+        }
+        .detail3
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+        }
+        .box13 .detail3 img
+        {
+            height: 80px;
+            width: 80px;
+            left: 10%;
+        }
+        .blog2
+        {
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 185%;
+        }
+        .box14
+        {
+            height: 200px;
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 253.5%;
+            border: 1px solid grey;
+        }
+        .detail4 h2
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        .detail4 h3
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .detail4 h4
+        {
+            color: yellow;
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .box15
+        {
+            width: 520px;
+            height: 310px;
+            background-color: white;
+            position: absolute;
+            top: 240%;
+            left: 60%;
+        }
+        .detail5
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+        }
+        .blog3
+        {
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 285%;
+        }
+        .box16
+        {
+            width: 520px;
+            height: 390px;
+            background-color: white;
+            position: absolute;
+            top: 287%;
+            left: 60%;
+        }
+        .detail6
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+        }
+        .box16 .detail6 img
+        {
+            height: 100px;
+            width: 100px;
+            left: 20%;
+        }
+        .box17
+        {
+            height: 200px;
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 353.5%;
+            border: 1px solid grey;
+        }
+        .detail7 h2
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        .detail7 h3
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .detail7 h4
+        {
+            color: yellow;
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .box18
+        {
+            width: 520px;
+            height: 280px;
+            background-color: white;
+            position: absolute;
+            top: 345%;
+            left: 60%;
+        }
+        .detail8
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+        }
+        .box19
+        {
+            width: 480px;
+            height: 60px;
+            background-color: rgb(239, 189, 189);
+            position: absolute;
+            top: 250%;
+            left: 0%;
+        }
+        .detail9
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+            top: 30%;
+        }
+        .box20
+        {
+            width: 480px;
+            height: 60px;
+            background-color: rgb(239, 189, 189);
+            position: absolute;
+            top: 390%;
+            left: 0%;
+        }
+        .detail10
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+            font-size: 20px;
+            position: absolute;
+            left: 20px;
+            top: 30%;
+        }
+        .blog4
+        {
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 385%;
+        }
+        .box21
+        {
+            height: 200px;
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 453.5%;
+            border: 1px solid grey;
+        }
+        .detail11 h2
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        .detail11 h3
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .detail11 h4
+        {
+            color: yellow;
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .blog5
+        {
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 485%;
+        }
+        .box22
+        {
+            height: 200px;
+            width: 800px;
+            left: 5%;
+            position: absolute;
+            top: 553.5%;
+            border: 1px solid grey;
+        }
+        .detail12 h2
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 10%;
+            left: 5%;
+        }
+        .detail12 h3
+        {
+            color: rgb(226, 224, 224);
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .detail12 h4
+        {
+            color: yellow;
+            position: absolute;
+            top: 80%;
+            left: 5%;
+        }
+        .logo2
+        {
+            top: 600%;
+        }
+        .home1
+        {
+            top: 600%;
+        }
+        .cakes1
+        {
+            top: 600%;
+        }
+        .about1
+        {
+            top: 600%;
+        }
+        .blog11
+        {
+            top: 600%;
+        }
+        .contact1
+        {
+            top: 600%;
+        }
+        .line1
+        {
+            top: 620%
+        }
+        p
+        {
+            top: 630%;
+        }
+        .box5
+        {    
+            top: 645%;
+        }
+        .box6
+        {    
+            top: 645%; 
+        }
+        .box7
+        {    
+            top: 645%;
+        }
+        .location
+        {
+            top: 630%;
+        }
+        .located
+        {
+            top: 645%;
+        }
+        .contact2
+        {
+            top: 630%;
+        }
+        .call
+        {
+            top: 645%;
+        }
+        .line2
+        {
+            top: 670%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="home"><a href="home.html">HOME</a></div>
+    <div class="cakes"><a href="cakes.html">CAKES</a></div>
+    <div class="about"><a href="about.html">ABOUT</a></div>
+    <div class="blog"><a href="blog.html">BLOG</a></div>
+    <div class="contact"><a href="contact.html">CONTACT</a></div>
+    
+    <!-- taskbar -->
+    <div class="taskbar">
+        <div class="logo">Colorlib</div>
+        <div class="taskbg">
+            <div class="cakeshop">+ CAKESHOP</div>
+        </div>
+        <div class="cross"></div>
+        <div class="basket"></div>
+        <div class="mobile"></div>
+        <div class="tablet"></div>
+        <div class="computer"></div>
+    </div>
+
+
+    <!-- background and home page -->
+    <div class="background">
+
+        <!-- main logo -->
+        <div class="logo1">Cake Shop</div>
+
+        <div class="facebook"></div>
+        <div class="instagram"></div>
+        <div class="twitter"></div>
+
+        <div class="box1">
+            <div class="no">Call Us: +10 783 346 4378</div>
+        </div>
+
+        
+        <div class="title1"> Blog </div>
+
+        <!-- blog -->
+        <div class="blog1">
+            <img src="images/blog3.png" alt="">
+        </div>
+    
+        <div class="box8">
+            <div class="detail"> 
+                <h2> Google inks pact for new 35-storey office </h2>
+                <h3> That dominion stars lights dominion divide years <br> 
+                    for fourth have don't stars is that he earth it first without  
+                    heaven in place seed it <br> second morning saying. 
+                </h3>
+                <h4> Travel, Lifestyle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 Comments</h4>
+            </div>
+        </div>
+
+        <div class="box9">
+            <div class="box10">
+                <div class="box11">
+                    <div class="s">Search</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box12">
+            <div class="detail2">
+                <br><br>Category <br><hr>
+                <br><br>Resaurant food(37) <br><br>
+                Travel news(10) <br><br>
+                Modern technology(03) <br><br>
+                Product(11) <br><br>
+                Inspiration21 <br><br>
+                Health Care (21)09 <br><br>
+            </div>
+        </div>
+
+        <div class="box13">
+            <div class="detail3">
+                <br>Recent Post <br><hr>
+
+                <br> <img src="images/post_1.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January 12, 2019 <br><br>
+                <img src="images/post_2.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 02 hours ago <br><br>
+                <img src="images/post_3.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 hours ago <br><br>
+                <img src="images/post_4.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01 hour ago
+
+            </div>
+        </div>
+
+        <div class="blog2">
+            <img src="images/single_blog_2.png" alt="">
+        </div>
+
+        <div class="box14">
+            <div class="detail4"> 
+                <h2> Google inks pact for new 35-storey office </h2>
+                <h3> That dominion stars lights dominion divide years <br> 
+                    for fourth have don't stars is that he earth it first without  
+                    heaven in place seed it <br> second morning saying. 
+                </h3>
+                <h4> Travel, Lifestyle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 Comments</h4>
+            </div>
+        </div>
+
+        <div class="box15">
+            <div class="detail5">
+                <br>tag clouds <br><hr>
+
+                <br><br>
+                PROJECT &nbsp;&nbsp; LOVE &nbsp;&nbsp; TECHNOLOGY &nbsp;&nbsp; TRAVEL <br><br><br>
+                &nbsp;&nbsp; RESTAURANT &nbsp;&nbsp; LIFE-STYLE &nbsp;&nbsp; DESIGN <br><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ILLUSTRATION 
+            </div>
+        </div>
+
+        <div class="blog3">
+            <img src="images/single_blog_3.jpg.webp" alt="">
+        </div>
+
+        <div class="box16">
+            <div class="detail6">
+                <br>Instagram Feeds <br><hr>
+
+                <br><br> <img src="images/post_5.png" alt=""> &nbsp;&nbsp;
+                <img src="images/post_6.png" alt=""> &nbsp;&nbsp;
+                <img src="images/post_7.png" alt=""> <br><br>
+                <img src="images/post_8.png" alt=""> &nbsp;&nbsp;
+                <img src="images/post_9.png" alt=""> &nbsp;&nbsp;
+                <img src="images/post_10.png" alt="">
+            </div>
+        </div>
+
+        <div class="box17">
+            <div class="detail7"> 
+                <h2> Google inks pact for new 35-storey office </h2>
+                <h3> That dominion stars lights dominion divide years <br> 
+                    for fourth have don't stars is that he earth it first without  
+                    heaven in place seed it <br> second morning saying. 
+                </h3>
+                <h4> Travel, Lifestyle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 Comments</h4>
+            </div>
+        </div>
+
+        <div class="box18">
+            <div class="detail8">
+                <br>New Sletter <br><hr>
+
+                <div class="box19">
+                    <div class="detail9"> Enter Email</div>
+                </div>
+
+                <div class="box20">
+                    <div class="detail10"> SUBSCRIBE </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="blog4">
+            <img src="images/single_blog_4.jpg.webp" alt="">
+        </div>
+
+        <div class="box21">
+            <div class="detail11"> 
+                <h2> Google inks pact for new 35-storey office </h2>
+                <h3> That dominion stars lights dominion divide years <br> 
+                    for fourth have don't stars is that he earth it first without  
+                    heaven in place seed it <br> second morning saying. 
+                </h3>
+                <h4> Travel, Lifestyle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 Comments</h4>
+            </div>
+        </div>
+
+        <div class="blog5">
+            <img src="images/single_blog_5.jpg.webp" alt="">
+        </div>
+
+        <div class="box22">
+            <div class="detail12"> 
+                <h2> Google inks pact for new 35-storey office </h2>
+                <h3> That dominion stars lights dominion divide years <br> 
+                    for fourth have don't stars is that he earth it first without  
+                    heaven in place seed it <br> second morning saying. 
+                </h3>
+                <h4> Travel, Lifestyle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03 Comments</h4>
+            </div>
+        </div>
+
+        <div class="logo2">Cake Shop</div>
+
+        <div class="home1"><a href="home.html"></a>HOME</div>
+        <div class="cakes1"><a href="cakes.html"></a>CAKES</div>
+        <div class="about1"><a href="about.html"></a>ABOUT</div>
+        <div class="blog11"><a href="blog.html"></a>BLOG</div>
+        <div class="contact1"><a href="contact.html"></a>CONTACT</div>
+
+        <div class="line1"></div>
+
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor <br> 
+            dunt ut labore et dolore magna aliqua. Ut enim ad 
+            minim <br>veniam,  quis nostrud exercita tion ullamco 
+            laboris <br> nisi ut  aliquip ex ea commodo consequat.</p>
+
+        <div class="box5">
+            <div class="i1">Instagram</div>
+        </div>
+        <div class="box6">
+            <div class="f1">Facebook</div>
+        </div>
+        <div class="box7">
+            <div class="t1">Twitter</div>
+        </div>
+
+        <div class="location">Location</div>
+        <div class="located"> 4736 Poe Lane, HOT <br> SPRINGS, Montana-59845 </div>
+
+        <div class="contact2">Contact</div>
+        <div class="call"> 913-473-7000 <br> contact@cakeshop.com </div>
+
+        <div class="line2"></div>
+</body>
+</html>
