@@ -1,0 +1,411 @@
+@media(min-width:320px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .gallery
+    {
+        font-size: 42px;
+        padding-left: 25px;
+        font-weight: 700;
+        position: relative;
+    }
+    ul
+    {
+        margin-top: 25px;
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    li
+    {
+        padding-bottom: 5%;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .gallery-img
+    {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+    .gallery-img .img1
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 1px;
+    }
+    .gallery-img .img2
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 25px;
+        left: 1px;
+    }
+    .gallery-img .img3
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 55px;
+        left: 1px;
+    }
+    .gallery-img .img4
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 75px;
+        left: 1px;
+    }
+
+    .gallery-img .img5
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 100px;
+        left: 1px;
+    }
+    .gallery-img .img6
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 125px;
+        left: 1px;
+    }
+    .gallery-img .img7
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 155px;
+        left: 1px;
+    }
+    .gallery-img .img8
+    {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 175px;
+        left: 1px;
+    }
+
+}
+@media(min-width:481px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .gallery
+    {
+        font-size: 42px;
+        padding-left: 25px;
+        font-weight: 700;
+        position: relative;
+    }
+    ul
+    {
+        margin-top: 25px;
+        display: flex;
+    }
+    li
+    {
+        padding-bottom: 5%;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .gallery-img
+    {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+    .gallery-img .img1
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: -25px;
+    }
+    .gallery-img .img2
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 5px;
+        left: 205px;
+    }
+    .gallery-img .img3
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 215px;
+        left: -25px;
+    }
+    .gallery-img .img4
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 215px;
+        left: 205px;
+    }
+
+    .gallery-img .img5
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 430px;
+        left: -22px;
+    }
+    .gallery-img .img6
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 430px;
+        left: 205px;
+    }
+    .gallery-img .img7
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 655px;
+        left: -22px;
+    }
+    .gallery-img .img8
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 655px;
+        left: 205px;
+    }
+
+}
+@media(min-width:769px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .gallery
+    {
+        font-size: 42px;
+        padding-left: 25px;
+        font-weight: 700;
+        position: relative;
+    }
+    ul
+    {
+        margin-top: 25px;
+        display: flex;
+    }
+    li
+    {
+        padding-bottom: 5%;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .gallery-img
+    {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+    .gallery-img .img1
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: -25px;
+    }
+    .gallery-img .img2
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 5px;
+        left: 205px;
+    }
+    .gallery-img .img3
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 2px;
+        left: 450px;
+    }
+    .gallery-img .img4
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 215px;
+        left: -25px;
+    }
+
+    .gallery-img .img5
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 215px;
+        left: 205px;
+    }
+    .gallery-img .img6
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 215px;
+        left: 450px;
+    }
+    .gallery-img .img7
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 440px;
+        left: -25px;
+    }
+    .gallery-img .img8
+    {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 440px;
+        left: 205px;
+    }
+
+}
+@media(min-width:1496px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .gallery
+    {
+        font-size: 42px;
+        padding-left: 25px;
+        font-weight: 700;
+        position: relative;
+    }
+    ul
+    {
+        margin-top: 25px;
+        display: flex;
+    }
+    li
+    {
+        padding-bottom: 5%;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .gallery-img
+    {
+        position: relative;
+        width: 80%;
+        margin: auto;
+    }
+    .gallery-img .img1
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: 10px;
+    }
+    .gallery-img .img2
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 5px;
+        left: 300px;
+    }
+    .gallery-img .img3
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 2px;
+        left: 600px;
+    }
+    .gallery-img .img4
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 2px;
+        left: 900px;
+    }
+
+    .gallery-img .img5
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 285px;
+        left: 10px;
+    }
+    .gallery-img .img6
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 285px;
+        left: 300px;
+    }
+    .gallery-img .img7
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 285px;
+        left: 600px;
+    }
+    .gallery-img .img8
+    {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 285px;
+        left: 900px;
+    }
+
+}
