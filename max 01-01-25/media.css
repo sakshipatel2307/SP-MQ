@@ -1,0 +1,157 @@
+@media (max-width: 1920px) 
+{
+    .a 
+    {
+        font-size: 36px;
+        left: 35%;
+        top: 12%;
+    }
+    .b 
+    {
+        font-size: 24px;
+        left: 35%;
+        top: 18%;
+    }
+    .gallery 
+    {
+        flex-direction: row;
+        justify-content: space-evenly;
+        top: 35%;
+        height: 450px;
+        width: 100%;
+    }
+    .box1, .box2, .box3 
+    {
+        width: 350px;
+        height: 300px;
+    }
+    .box1 img, .box2 img, .box3 img 
+    {
+        height: 60px;
+        width: 60px;
+        left: 43%;
+        top: 10%;
+    }
+    p 
+    {
+        font-size: 15px;
+        top: 15%;
+    }
+    h3 
+    {
+        font-size: 32px;
+        top: 25%;
+    }
+    h5 
+    {
+        font-size: 20px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .a 
+    {
+        font-size: 28px;
+        left: 20%;
+        top: 8%;
+    }
+    .b 
+    {
+        font-size: 18px;
+        left: 20%;
+        top: 15%;
+    }
+    .gallery 
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        top: 30%;
+        height: auto;
+        width: 100%;
+    }
+    .box1, .box2, .box3 
+    {
+        width: 45%;
+        height: 250px;
+        margin-bottom: 20px;
+
+    }
+    .box1 img, .box2 img, .box3 img 
+    {
+        height: 55px;
+        width: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    p 
+    {
+        font-size: 13px;
+        top: 12%;
+    }
+    h3 
+    {
+        font-size: 20px;
+        top: 22%;
+    }
+    h5 
+    {
+        font-size: 16px;
+        top: 27%;
+    }
+}
+
+@media (max-width: 480px) 
+{
+    .a 
+    {
+        font-size: 24px;
+        left: 10%;
+        top: 5%;
+    }
+    .b 
+    {
+        font-size: 16px;
+        left: 10%;
+        top: 12%;
+    }
+    .gallery 
+    {
+        flex-direction: column;
+        justify-content: center;
+        top: 25%;
+        height: auto;
+        width: 100%;
+    }
+    .box1, .box2, .box3 
+    {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 20px;
+
+    }
+    .box1 img, .box2 img, .box3 img 
+    {
+        height: 50px;
+        width: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    p 
+    {
+        font-size: 12px;
+        top: 10%;
+    }
+    h3 
+    {
+        font-size: 18px;
+        top: 20%;
+    }
+    h5 
+    {
+        font-size: 14px;
+        top: 25%;
+    }
+}
